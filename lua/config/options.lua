@@ -6,5 +6,6 @@
 vim.filetype.add({
   pattern = {
     [".*/*.cls"] = "apex",
+    [".*/*.agent"] = "agentdsl",
   },
 })
